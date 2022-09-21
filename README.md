@@ -10,7 +10,7 @@ I'm trying to demo two things:
 I'm just trying to figure these out,
 so you can consider this ***under heavy development***.
 
-Right now, I can get the current version of the notebook to run fine on my laptop, in a virtual environment (`python -mvenv .venv`), if I install the bash kernel (`pip install bash_kernel`)
+Right now, I can get the current version of the notebook to run fine on my laptop, in a virtual environment (`python -mvenv .venv`), if I install the bash kernel (`pip install bash_kernel && python -m bash_kernel.install`)
 before I launch Jupyter Notebook (`jupyter notebook`).
 
 Getting this working in GitPod, however, is still a bridge too far.
